@@ -6,7 +6,7 @@ public class Client {
 		this.imya = i;
 	}
 	public void Jisty(Strava s){
-	   System.out.println("Клієнт" + "ім'я" + " з'їв страву(" +s.getClass().getName()+")");
+	   System.out.println("Клієнт" + "imya" + " з'їв страву(" +s.getClass().getName()+")");
 	}
 	
 
