@@ -2,7 +2,13 @@
 public class SmazhenaTrava extends Strava {
 	
 	private String vydTravy;
-	String vydTravy=salat;
+	
+	public String getvydTravy() 
+	{ return vydTravy;}
+	public void setvydTravy(String salat)
+	{ this.vydTravy = salat;}	
+	
+	
 	//салат,петрушка,кульбабки
 
 }
